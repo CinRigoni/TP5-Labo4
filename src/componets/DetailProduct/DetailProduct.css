@@ -1,0 +1,34 @@
+.detailProductList{
+    display: flex;
+}
+
+.detailProductSideOne{
+    width: 60%;
+}
+
+.detailProductImage{
+    display: flex;
+    justify-content: center;
+}
+.detailProductImage img{
+    width: 60%;
+}
+
+.detailProductSideTwo{
+    width: 40%;
+    border-left: 1px solid #ccc;
+    padding: 15px;
+}
+
+.brandInfo{
+    margin: 15px 0;
+}
+
+.brandInfo p{
+    margin: 0;
+}
+
+.productDetailTitle{
+    font-weight: 400;
+    font-size: 1.5rem;
+}

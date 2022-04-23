@@ -1,0 +1,44 @@
+.productContainer{
+    display: flex;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.productInfoContainer{
+    padding-left: 20px;
+}
+
+.productTitle{
+    font-weight: 200;
+    font-size: 1.2rem;
+    cursor: pointer;
+    text-decoration: none;
+    color: #000;
+}
+.productTitle:hover{
+    text-decoration: underline;
+    color: #000;
+}
+
+.productPrice{
+    font-weight: 400;
+    font-size: 1.9rem;
+    margin: 0;
+}
+
+.productShipping{
+    display: flex;
+    align-items: center;
+}
+
+.productShipping.free{
+    color: #39B54A;
+}
+.productShipping.non-free{
+    color: #FF7C25;
+}
+
+.productSoldOut{
+    font-size: .9rem;
+}
+
